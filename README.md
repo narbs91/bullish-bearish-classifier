@@ -1,4 +1,4 @@
-# Hugging Face Demo
+# bullish-bearish-classifier
 
 This is a simple Python app built with [FastAPI](https://fastapi.tiangolo.com/) that demonstrates how to integrate a Hugging Face ML Model.  The app itself is a REST API that incorporates the [facebook/bart-large-mnli](https://huggingface.co/facebook/bart-large-mnli) model that will allow someone to classify a piece of text as being "bullish" or "bearish".
 
