@@ -22,6 +22,22 @@ uvicorn app:app --port 7860
 
 4. Open the Swagger Page : [localhost:7860/docs](http://localhost:7860/docs)
 
+### Run with Docker (Optional)
+
+1. Pull the latest image via
+
+```bash
+docker pull narbs91/bullish-bearish-classifier
+```
+
+2. Run the app via
+
+```bash
+docker run -p 7860:7860 narbs91/bullish-bearish-classifier
+```
+
+3. Open the Swagger Page : [localhost:7860/docs](http://localhost:7860/docs)
+
 ## Endpoint
 
 ### Classify
